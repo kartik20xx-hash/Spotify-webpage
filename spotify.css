@@ -1,0 +1,262 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color:#1f1f1f;
+}
+.main{
+    display: flex;
+   height: 100vh;
+}
+.sidebar-top{
+    height: 64px;
+    width: 100%;
+}
+.yo{
+   
+    top: 2px;
+    margin-left: 20px;
+    color: white;
+    font-size: 30px;
+}
+
+.logo{
+  position: relative;
+    top: 10px;
+    margin-left: 20px;
+    margin-top: 2px;
+    height:40px;
+    width:50px;
+
+}
+input::placeholder{
+    color: white;
+    font-size: 1rem;
+}
+.search{
+   
+    background-color: #1f1f1f;
+    margin-left: 20px;
+    border-radius: 30px;
+    border: none;
+    height: 48px;
+    width: 278px;
+    font-size: 1rem;
+   ;
+}
+.btn{
+    
+    margin-left: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color:transparent;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+}
+.line{
+   font-size: 1.5rem;
+   padding-left: 6px;
+   padding-right: 6px;
+}
+.sidebar{
+   
+    width: 475px;
+    background-color:black;
+   
+
+}
+.content{
+    background-color:#1f1f1f;
+    flex: 1;
+   
+    
+
+}
+
+.player{
+    background-color: blue;
+    height: 72px;
+    width: 100%;
+    position: fixed;
+    bottom:0px;
+}
+.library{
+  
+   
+    height:75px;
+    width: 455px;
+    border-radius: 10px;
+   
+    margin:5px 0px 5px 5px;
+}
+.btn2{
+   position: relative;
+    left: 320px;
+    bottom: 40px;
+    font-size: 17px;
+    border-radius: 20px;
+    background-color: #1f1f1f;
+    border: none;
+    color: white;
+    
+
+}
+.b1{
+    width: 455px;
+    height: 140px;
+    background-color: #1f1f1f;
+    color: white; 
+    padding: 3px;
+    margin-bottom:25px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 10px;
+    
+}
+.ww{
+    font-size: 20px;
+}
+.ss{
+    font-size: 17px;
+}
+.btn3{
+    font-size: 17px;
+    border-radius: 20px;
+    position: relative;
+    top: 20px;
+   left: 27px;
+   border: none;
+    
+    background-color: white;
+}
+#kk{
+    padding-top:2px;
+  
+}
+h3{
+    color: white;}
+.anchor a{
+    text-decoration: none;
+    color : white;
+    opacity: 0.6;
+    line-height: 20px;
+}
+.anchor a:hover{
+     opacity: 1;
+     
+}
+
+.aob:hover{
+    color: white;
+   
+}
+.btn6{
+    padding:5px ;
+    position: relative;
+    left:20px;
+    background-color: transparent;
+    border-radius: 20px;
+    border: white solid 0.1px;
+    color: white;
+    font-size: 17px;
+    opacity: 0.9;
+}
+.content-top{
+    width: 100%;
+    height: 64px;
+    background-color: black;
+    color: white;
+}
+.btn-1{
+    color: white;
+    background-color:transparent;
+    border:none;
+    font-size:1rem;
+    opacity: 0.6;
+    position: relative;
+    top:0.4rem;
+}
+.btn-1:hover{
+    opacity: 1;
+}
+.span-1{
+    font-size: 1rem;
+    position: relative;
+    top :0.4rem;
+    opacity: 0.7;
+}
+.span-1:hover{
+    opacity: 1;
+}
+.span-2{
+     font-size: 2.3rem;
+    position: relative;
+    top :1.2rem;
+}
+.btn-5{
+    width: 110px;
+    height: 50px;
+    font-weight: bold;
+
+    position: absolute;
+    top :0.5rem;
+    right:4px;
+    font-size: 15px;
+    border-radius: 25px;
+
+}
+.hh{
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+}
+.card-1{
+    margin: 20px;
+    width: 220px;
+    height: 280px;
+    background-color:black;
+    
+}
+.qq{
+    position: absolute;
+    right: 10px;
+    font-size: 17px;
+    opacity: 0.7;
+
+}
+.qq:hover{
+    opacity: 1;
+}
+.img{
+    width: 220px;
+    height: 180px;
+   
+    position: relative;
+    top: 0px;
+
+}
+h5{
+    color: white;
+    opacity: 0.8;
+}
+.main-card-1{
+    display: flex;
+    flex-direction:row;
+}
+.content{
+    overflow:scroll;
+}
+.tt{
+    
+    color: white;
+}
+.yy{
+    color: white;
+    opacity: 0.7;
+}
+.player{
+     background: linear-gradient(90deg, #ae2896 0%, #509bf5 100%);
+    border-radius:26px ;
+    margin: 10px;
+}
