@@ -1,13 +1,62 @@
 body{
     padding: 0;
     margin: 0;
-    font-family: 'Montserrat', sans-serif;
-    background-color:#1f1f1f;
+    height: 100vh;
+    background-color: black;
 }
-.main{
+
+
+
+.topbar{
+    height: 64px;
+    width: 100%;
+    background: black;
+}
+
+
+.sidebar{
+    position: fixed;
+
+    height: 84vh;
+    width: 420px;
+    background:black;
+}
+
+
+.content{
+    margin-top: 10px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 25px;
+   position: fixed;
+   top: 4rem;
+   bottom: 72px;
+   right:0;
+   left: 420px;
+    flex: 1;
+    background:#1f1f1f;
+}
+
+
+.bottom{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 72px;
+   
     display: flex;
-   height: 100vh;
+    background: linear-gradient(to right,#af2896,#509bf5);
+   
+    
+    justify-content: space-between;
+    padding: 0 20px;
+    box-sizing: border-box;
+
+    
+   
 }
+
 .sidebar-top{
     height: 64px;
     width: 100%;
@@ -40,9 +89,12 @@ input::placeholder{
     border-radius: 30px;
     border: none;
     height: 48px;
-    width: 278px;
+    width: 474px;
     font-size: 1rem;
-   ;
+   opacity: 0.7;
+}
+.search:hover{
+    opacity: 1;
 }
 .btn{
     
@@ -59,40 +111,22 @@ input::placeholder{
    padding-left: 6px;
    padding-right: 6px;
 }
-.sidebar{
-   
-    width: 475px;
-    background-color:black;
-   
 
-}
-.content{
-    background-color:#1f1f1f;
-    flex: 1;
-   
-    
 
-}
 
-.player{
-    background-color: blue;
-    height: 72px;
-    width: 100%;
-    position: fixed;
-    bottom:0px;
-}
+
 .library{
   
    
     height:75px;
-    width: 455px;
+    width: 265px;
     border-radius: 10px;
    
-    margin:5px 0px 5px 5px;
+    /* margin:5px 0px 5px 5px; */
 }
 .btn2{
    position: relative;
-    left: 320px;
+    left: 290px;
     bottom: 40px;
     font-size: 17px;
     border-radius: 20px;
@@ -103,7 +137,7 @@ input::placeholder{
 
 }
 .b1{
-    width: 455px;
+    width: 400px;
     height: 140px;
     background-color: #1f1f1f;
     color: white; 
@@ -130,12 +164,21 @@ input::placeholder{
     
     background-color: white;
 }
-#kk{
-    padding-top:2px;
+h4{
+    padding-left:19px;
+    font-size: 20px;
+    color: white;
   
 }
 h3{
-    color: white;}
+    color: white;
+}
+h3:hover{
+     text-decoration: underline;
+}
+h4:hover{
+    text-decoration: underline;
+}
 .anchor a{
     text-decoration: none;
     color : white;
@@ -149,6 +192,8 @@ h3{
 
 .aob:hover{
     color: white;
+    font-size: 15px;
+    transition: 0.5s;
    
 }
 .btn6{
@@ -163,6 +208,7 @@ h3{
     opacity: 0.9;
 }
 .content-top{
+    
     width: 100%;
     height: 64px;
     background-color: black;
@@ -175,7 +221,7 @@ h3{
     font-size:1rem;
     opacity: 0.6;
     position: relative;
-    top:0.4rem;
+    top:-2px;
 }
 .btn-1:hover{
     opacity: 1;
@@ -183,7 +229,7 @@ h3{
 .span-1{
     font-size: 1rem;
     position: relative;
-    top :0.4rem;
+    top :-4px;
     opacity: 0.7;
 }
 .span-1:hover{
@@ -192,14 +238,14 @@ h3{
 .span-2{
      font-size: 2.3rem;
     position: relative;
-    top :1.2rem;
+    top :0.4rem;
 }
 .btn-5{
     width: 110px;
     height: 50px;
     font-weight: bold;
 
-    position: absolute;
+    position:fixed;
     top :0.5rem;
     right:4px;
     font-size: 15px;
@@ -207,15 +253,24 @@ h3{
 
 }
 .hh{
+   
     color: white;
     font-weight: bold;
-    padding: 20px;
+    padding-left: 40px;
+    
+}
+.hh:hover{
+    text-decoration: underline;
+}
+.qq:hover{
+    text-decoration: underline;
 }
 .card-1{
-    margin: 20px;
-    width: 220px;
-    height: 280px;
-    background-color:black;
+   padding-top: 0px;
+    margin: 0px 15px 15px 15px;
+    width: 177px;
+    height:252px;
+   
     
 }
 .qq{
@@ -229,16 +284,21 @@ h3{
     opacity: 1;
 }
 .img{
-    width: 220px;
-    height: 180px;
-   
-    position: relative;
-    top: 0px;
+    width: 177px;
+    height: 170px;
+}
+.img1{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
 
 }
 h5{
     color: white;
-    opacity: 0.8;
+    opacity: 0.7;
+}
+h5:hover{
+    opacity: 1;
 }
 .main-card-1{
     display: flex;
@@ -247,16 +307,45 @@ h5{
 .content{
     overflow:scroll;
 }
-.tt{
+.tt{ 
+    position: relative;
+    top: 9px;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 0;
     
     color: white;
 }
 .yy{
-    color: white;
+    position: fixed;
+    left: 40px;
+    bottom: 30px;
     opacity: 0.7;
+     color: white;
+    font-size: 16px;
 }
-.player{
+.yy:hover{
+    opacity: 1;
+}
+.bottom{
      background: linear-gradient(90deg, #ae2896 0%, #509bf5 100%);
-    border-radius:26px ;
-    margin: 10px;
+    border-radius:16px ;
+    margin:10px;
 }
+.xx{
+    background: white;
+    color: black;
+    border: none;
+    border-radius: 999px;
+    padding: 14px 32px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 14px;
+}
+
+
+
+
+
+
